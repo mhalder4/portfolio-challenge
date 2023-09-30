@@ -73,17 +73,50 @@ header nav div a {
   text-align: justify;
 }
 
-.contact {
-  background-color: #52ab97;
+/* main section {
+  height: 80vh;
+} */
+
+main .work-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .small-projects {
+  display: flex;
+}
+
+main #first-project div {}
+
+main #first-project img {
+  width: 75%;
+}
+
+main .small-projects div img {
+  width: 70%;
+}
+
+main .small-projects div {
+  display: flex;
+}
+
+main .small-projects div:first-child {
+  justify-content: flex-end;
 }
 
 .contact div {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
 }
 
 .contact img {
   max-height: 50px;
   max-width: 50px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #52ab97;
 }
